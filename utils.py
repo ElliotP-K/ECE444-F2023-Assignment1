@@ -1,6 +1,6 @@
 class utils:
     def reversed(self, num):
-        num = int(num)
+        num = int(float(num))
         num_str = str(num)
         num_order_of_mag = len(num_str)
         counter = num_order_of_mag-1
@@ -11,7 +11,7 @@ class utils:
         return reversed_num
 
     def formatter(self, num):
-        num = int(num)
+        num = int(float(num))
         order_of_mag_counter = 0
         max_found = False
         
